@@ -25,7 +25,7 @@ BUddy is a conversational AI chatbot developed to provide fast and accessible as
 
 ---
 
-##📄 **Current Status**
+#📄 **Current Status**
 
 ✅ **Completed**
 - LLM integration
@@ -68,8 +68,7 @@ BUddy is a conversational AI chatbot developed to provide fast and accessible as
 
 ---
 
-📚 **Handbook Source**
-Official BU Student Handbook (2019):  
+📚 **Handbook Source** > Official BU Student Handbook (2019):  
 https://bicol-u.edu.ph/wp-content/uploads/2024/05/492555631-BU-Student-Handbook.pdf
 
 ---
@@ -80,7 +79,7 @@ https://bicol-u.edu.ph/wp-content/uploads/2024/05/492555631-BU-Student-Handbook.
 - Fujimura, Elly B. - Frontend Developer
 - Lastrilla, Jhana - Project Manager, Quality Assurance
 - Margelino, Kristina - Backend Developer, Quality Assurance  
-- Bicol University, 2025
+Bicol University, 2025
 
 ---
 
