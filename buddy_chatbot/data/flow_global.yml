@@ -1,0 +1,21 @@
+flows:
+
+  bot_challenge:
+    description: This flow clarifies that the user is talking to a chatbot, when the user ask if they are talking to a chatbot or a human
+    steps:
+      - action: utter_bot_challenge
+
+  user_thanks:
+    description: This flow handles the user's gratitude and offers further assistance.
+    steps:
+      - action: utter_thanks
+
+  user_goodbye:
+    description: This flow handles the user's goodbye and offers further assistance.
+    steps:
+      - action: utter_goodbye
+
+  fallback:
+    description: This will be a fallbck flow for when the user input is confusing. It should not respond to greetings or goodbyes or anything defined in another flow.
+    steps:
+      - action: utter_ask_for_clarification

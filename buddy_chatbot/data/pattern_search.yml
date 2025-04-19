@@ -1,0 +1,19 @@
+flows:
+
+  pattern_search: #answer_query: #pattern_search:
+    description: handle a knowledge-based question or request
+    name: pattern search # added this
+    steps:
+      #- collect: "search_query" #
+      #  description: "a question or request about academic policies"
+      # - action: action_session_start
+      
+      - action: action_trigger_search #
+#        next:
+#          - if: 
+#              - "search_result is not None"
+#            then:
+#              - action: utter_default
+#            else:
+#              - action: utter_free_chitchat_response
+#      - action: utter_can_do_something_else #

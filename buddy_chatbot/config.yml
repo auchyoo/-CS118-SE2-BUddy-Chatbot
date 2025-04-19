@@ -1,0 +1,27 @@
+recipe: default.v1
+
+language: en
+
+pipeline:
+- name: SingleStepLLMCommandGenerator
+  llm:
+    model_group: openai-direct-gpt-4
+  flow_retrieval:
+    active: false
+
+policies:
+- name: FlowPolicy #
+  default_flow: pattern_search # default flow to be used when no other flow is matched
+  fallback_flow: pattern_completed # flow to be used when the user says "thank you" or "goodbye"
+  fallback_threshold: 0.5 # threshold for fallback flow
+  max_history: 10 # maximum number of previous turns to consider for context
+
+- name: EnterpriseSearchPolicy
+  citation_enabled: true #
+  vector_store:
+        type: "faiss"
+        source: "./docs" #
+  llm: #
+      model_group: openai-direct-gpt-4
+assistant_id: 20250414-090439-fancy-roof
+

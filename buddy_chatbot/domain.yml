@@ -1,0 +1,53 @@
+version: "3.1"
+
+responses:
+
+  utter_session_start:
+    - text: "Hi there, I'm BUddy! Your Bicol University Student Handbook assistant. I am here to help you answer any questions you might have regarding the University's policies. \n\nI am trained with the data from the latest Student Handbook 2019 version, which can be found at https://bicol-u.edu.ph/wp-content/uploads/2024/05/492555631-BU-Student-Handbook.pdf.\n\nHowever, as of now, I can only assist with queries regarding the following topics:\n1. Admission, Registration and Related Matters,\n2. Academic Policies, Procedures and Programs; and\n3. Rules and Regulations on Student Conduct and Discipline.\n\nIn the near future, I envision to be able to answer more questions regarding the handbook, but for now, if you have questions within the range of topics mentioned, ask away!"
+      metadata:
+        rephrase: True
+
+  utter_bot_challenge:
+    - text: "I'm an AI assistant designed to assist you with Bicol University's Student Handbook. "
+      metadata:
+        rephrase: True
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask me anytime about academic policies."
+      metadata:
+        rephrase: True
+
+  utter_thanks:
+    - text: "You're welcome! Let me know if you need anything else."
+      metadata:
+        rephrase: True
+
+  utter_ask_for_clarification:
+    - text: "Could you please clarify your question?"
+      metadata:
+        rephrase: True
+
+  utter_can_do_something_else:
+    - text: "Let me know if you have any other inquiries!"
+      metadata:
+        rephrase: True
+
+  utter_free_chitchat_response:
+    - text: "I'm happy to help with any questions you have, but I'm afraid I can only provide information related to the student handbook. Let's focus on academic policies and procedures. How can I assist you with that?"
+      metadata:
+        rephrase: True
+        rephrase_prompt: |
+          The following is a conversation with an AI assistant built with Rasa.
+          The assistant is designed to help users with academic policies and procedures as outlined in the student handbook.
+          The assistant is not a general knowledge base, but rather a specialized tool for student handbook inquiries.
+          The user is a student or someone interested in academic policies.
+          The assistant is polite, yet firm, in redirecting the conversation to relevant topics.
+          The user is making an out-of-topic request, and the assistant should respond by refocusing the conversation on the student handbook.
+          Context / previous conversation with the user:
+          {{history}}
+          {{current_input}}
+          Suggested AI Response:\
+
+session_config:
+  session_expiration_time: 60  # in minutes
+  carry_over_slots_to_new_session: true
