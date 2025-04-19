@@ -25,7 +25,7 @@ BUddy is a conversational AI chatbot developed to provide fast and accessible as
 
 ---
 
-#📄 **Current Status**
+📄 **Current Status**
 
 ✅ **Completed**
 - LLM integration
