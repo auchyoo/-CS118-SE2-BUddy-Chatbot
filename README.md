@@ -1,5 +1,4 @@
-# -CS118-SE2-BUddy-Chatbot
-# BUddy: Bicol University Student Handbook Chatbot
+# -CS118-SE2-BUddy: Bicol University Student Handbook Chatbot
 
 BUddy is a conversational AI chatbot developed to provide fast and accessible assistance to Bicol University students by answering queries based on the 2019 Student Handbook. Powered by a large language model (LLM), it offers a friendly, accurate, and intelligent way for students to explore academic policies, procedures, and student conduct regulations.
 
@@ -26,7 +25,7 @@ BUddy is a conversational AI chatbot developed to provide fast and accessible as
 
 ---
 
-📄 **Current Status**
+##📄 **Current Status**
 
 ✅ **Completed**
 - LLM integration
@@ -76,12 +75,12 @@ https://bicol-u.edu.ph/wp-content/uploads/2024/05/492555631-BU-Student-Handbook.
 ---
 
 🤝 Authors
-Anave, Ivy O. - Backend Developer
-Ceneta, Jeremy - Frontend Developer
-Fujimura, Elly B. - Frontend Developer
-Lastrilla, Jhana - Project Manager, Quality Assurance
-Margelino, Kristina - Backend Developer, Quality Assurance  
-Bicol University, 2025
+- Anave, Ivy O. - Backend Developer
+- Ceneta, Jeremy - Frontend Developer
+- Fujimura, Elly B. - Frontend Developer
+- Lastrilla, Jhana - Project Manager, Quality Assurance
+- Margelino, Kristina - Backend Developer, Quality Assurance  
+- Bicol University, 2025
 
 ---
 
